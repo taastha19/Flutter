@@ -1,0 +1,5 @@
+void main(){
+  numbers(12.6,4);
+}
+void numbers(double x, double y) =>
+  print('Addition = ${x+y} \n Subtraction is ${x-y} \n Multiplication is ${x*y} \n Division is ${x/y}');
