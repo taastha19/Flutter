@@ -1,0 +1,4 @@
+void main(){
+  var ch= 1;
+  ((ch>=65 && ch<=90) || (ch>=97 && ch<=122))? print("$ch is an alphabet") : print("$ch is not an alphabet");
+}
