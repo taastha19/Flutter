@@ -1,0 +1,30 @@
+void main() {
+  units(1487);
+}
+void units(double u)
+{
+  if(u<=200)
+  {
+    print('Bill of Rs. ${0.5*u}');
+  }
+  else if(u<=500)
+  {
+    print('Bill of Rs. ${1*u}');
+  }
+  else if(u<=1000)
+  {
+    print('Bill of Rs. ${2.5*u}');
+  }
+  else if(u<=1500)
+  {
+    print('Bill of Rs. ${3.5*u}');
+  }
+  else if(u<=2500)
+  {
+    print('Bill of Rs. ${5*u}');
+  }
+  else if(u>2500)
+  {
+    print('Bill of Rs. ${10*u}');
+  }
+}
