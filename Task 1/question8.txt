@@ -1,0 +1,4 @@
+void main() {
+  int x=12, y=34, z=23;
+  ((x>y)&&(x>z))? print('Max is $x') : ((y>x)&&(y>z))? print('Max is $y') : print('Max is $z');
+  }
