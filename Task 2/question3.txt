@@ -1,0 +1,7 @@
+void main(){
+   Map<String,dynamic> map= {'Aastha' : '19th June 2003' , 
+					'Addya' : '21st Nov 2003', 
+					'Aakanksha': '25th March 2003' , 
+					'Nida' : '16th March 2003'};
+   print(map['Addya']);
+ }
