@@ -1,0 +1,97 @@
+import 'package:flutter/material.dart';
+
+void main() => runApp(const ComputerDetailsApp());
+
+class ComputerDetailsApp extends StatelessWidget{
+    const ComputerDetailsApp({Key? key}) : super(key: key);
+
+    @override    
+    Widget build(BuildContext context) { 
+        return MaterialApp(
+          theme: ThemeData(
+             fontFamily:
+              'Anton',
+          ),
+          home: Scaffold(
+                appBar: AppBar(
+                    backgroundColor: Colors.blueAccent,
+                    title: const Text("Computer Details App!"),
+                ), 
+                body: ListView(
+                  children: [
+                    
+                    Row(
+                      children: [ 
+                        Image.asset("monitor.jpg", height: 100, width: 100),
+                        const SizedBox(width: 15),
+                        const Text("A monitor is an electronic visual computer display."),
+                      ],
+                    ),
+                    Row(
+                      children: [ 
+                        Image.asset("keyboard.jpg", height: 100, width: 100),
+                        const SizedBox(width: 15),
+                        const Text("A keyboard is for putting information into your computer."),
+                        
+                      ],
+                    ),
+                    Row(
+                      children: [ 
+                        Image.asset("mouse.jpg", height: 100, width: 100),
+                        const SizedBox(width: 15),
+                        const Text("The mouse lets you control a range of things on a computer. "),
+                      ],
+                    ),
+                    Row(
+                      children: [ 
+                        Image.asset("cpu.jpg", height: 100, width: 100),
+                        const SizedBox(width: 15),
+                        const Text("central processing unit (CPU) is principal part of any digital computer system."),
+                        
+                        
+                      ],
+                    ),
+                    Row(
+                      children: [ 
+                        Image.asset("harddrive.jpg", height: 100, width: 100),
+                        const SizedBox(width: 15),
+                        const Text("The hard drive is where all your permanent computer data is stored."),
+                      ],
+                    ),
+                    Row(
+                      children: [ 
+                        Image.asset("motherboard.jpg", height: 100, width: 100),
+                        const SizedBox(width: 15),
+                        const Text("The motherboard is the backbone that ties the computer's components together."),
+                      ],
+                    ),
+                    Row(
+                      children: [ 
+                        Image.asset("printer.jpg", height: 100, width: 100),
+                        const SizedBox(width: 15),
+                        const Text("Printer is a device that transfers input to a medium such as paper or film."),
+                      ],
+                    ),
+                     Row(
+                      children: [ 
+                        Image.asset("ram.jpg", height: 100, width: 100),
+                        const SizedBox(width: 15),
+                        const Text("RAM is a form of computer memory that can be read and changed in any order."),
+                        ],
+                    ),
+                    Row(
+                      children: [ 
+                        Image.asset("UPS.jpg", height: 100, width: 100),
+                        const SizedBox(width: 15),
+                        const Text("UPS provides battery backup power when the electricity flow drops."),
+                      ],
+                    ),
+                  ],
+                ),
+            ), 
+        );  
+    }
+}
+
+
+  
